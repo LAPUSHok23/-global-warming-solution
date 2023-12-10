@@ -49,7 +49,7 @@ def detect_object(image_path):
     if base_class == 'вредно':
         detailed_class, detailed_class_score = detect_class(image_path, 'K_M\Model 8\keras_model8.h5', 'K_M\Model 8\labels8.txt')
     else:
-        detailed_class, detailed_class_score = detect_class(image_path, 'K_M\Model 6\keras_model6.h5', 'K_M\Model 6\labels6.txt')
+        detailed_class, detailed_class_score = detect_class(image_path, 'K_M\Model 9\keras_model6.h5', 'K_M\Model 6\labels6.txt')
 
     
     return (base_class, round(base_class_score*100, 1)), (detailed_class, round(detailed_class_score*100, 1))
