@@ -1,1 +1,2 @@
-# -global-warming-solution
+# -global-warming-solu
+Автор: Kunev Roman
